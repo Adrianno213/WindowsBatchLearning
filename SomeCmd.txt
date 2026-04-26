@@ -1,3 +1,6 @@
 dir | rename-item -NewName {$_.name -replace "TXT1","TXT2"}
 taskkill /im Example.exe
 start /d"D:\Example" Example.exe
+@echo off
+ren *.mp4 *.mp3
+pause
