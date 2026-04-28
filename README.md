@@ -6,7 +6,7 @@
 start /d"D:\folder\example\" example.exe
 ```
 
-**Rename Files:**
+**Rename File:**
 
 ```batch
 dir | rename-item -NewName {$_.name -replace "TXT1","TXT2"}
