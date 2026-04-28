@@ -14,3 +14,8 @@ dir | rename-item -NewName {$_.name -replace "TXT1","TXT2"}
 ren *.mp4 *.mp3
 pause
 ```
+
+**Taskkill:**
+```batch
+taskkill /im example.exe /f
+```
