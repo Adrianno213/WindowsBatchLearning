@@ -12,6 +12,7 @@ taskkill /F /im Thunder.exe
 taskkill /F /im NeatReader.exe
 taskkill /F /im FoxitPhantomPDF.exe
 taskkill /im Foxmail.exe
+taskkill /F /T /im 程序名.exe ##Kill subtasks of the process as well
 ##command_that_might_fail >nul 2>&1
 ##echo The script is still moving forward!
 ##shutdown -s -t 0
