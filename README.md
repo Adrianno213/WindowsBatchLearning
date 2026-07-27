@@ -23,6 +23,6 @@ taskkill /F /T /im app.exe ##Kill subtasks of the process as well
 ```
 
 **Schedule task:**
-```batch
+```
 taskschd.msc
 ```
