@@ -20,5 +20,6 @@ dir | rename-item -NewName {$_.name -replace "\(z-library.sk, 1lib.sk, z-lib.sk\
 dir | rename-item -NewName {$_.name -replace "_z_library_sk,_1lib_sk,",""}
 @echo off
 ren *.mp4 *.mp3
+taskschd.msc
 pause
 
